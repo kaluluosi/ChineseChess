@@ -5,13 +5,16 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1a610f7c-373d-4101-b622-c9a185708ec6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Chess.py</StartupFile>
+    <StartupFile>ChineseChess.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>ChineseChess</Name>
     <RootNamespace>ChineseChess</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,10 +25,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Chess.py">
+    <Compile Include="ChessCfg.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ChineseChess.py" />
+    <Compile Include="__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
