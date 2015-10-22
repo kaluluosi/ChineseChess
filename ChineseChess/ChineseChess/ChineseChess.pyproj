@@ -30,6 +30,9 @@
     </Compile>
     <Compile Include="ChineseChess.py" />
     <Compile Include="Constant.py" />
+    <Compile Include="Engine.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Facotries.py" />
     <Compile Include="__init__.py">
       <SubType>Code</SubType>
